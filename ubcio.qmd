@@ -1,0 +1,59 @@
+---
+title: "Industrial Organization at UBC"
+format: revealjs
+---
+
+# Industrial Organization
+
+## Industrial Organization
+
+- Firm behavior
+- Market structure
+- Market power
+- Strategies
+
+
+## Empirical IO
+
+- Structural model
+  - Need to answer specific questions even if no natural experiment (e.g. anti-trust cases)
+  - Theories of firm behavior more plausible
+- Industry & institutional features
+- Game theory, econometrics, computation
+
+# Courses
+
+## Core
+
+- Two empirical IO courses:
+  - [565](https://www.dropbox.com/s/q9rqxhr0ezpn2td/syllabus_2020.docx?dl=0) taught by Sam Hwang
+  - [567](https://faculty.arts.ubc.ca/pschrimpf/565/index.html) taught by Paul Schrimpf
+
+## Supplementary
+
+- Recommended supplementary courses:
+  - [Course from Sauder SBE](https://www.sauder.ubc.ca/programs/phd/phd-business-administration/specializations/strategy-and-business-economics) e.g. COMM691
+  - [622](https://github.com/ubcecon/ECON622) computational economics taught by Paul Schrimpf
+  - 629 topics in econometrics taught by Kevin Song
+  - [514](https://montoya.econ.ubc.ca/Econ514/incetives.md) Information & Incentives taught by Mike Peters
+
+
+# People
+
+## Sam Hwang
+
+## Hiro Kasahara
+
+## Mike Peters
+
+## Vitor Farinha Luz
+
+## Paul Schrimpf
+
+## Margaret Slade
+
+## Vadim Marmer
+
+## Kevin Song
+
+## Sauder
