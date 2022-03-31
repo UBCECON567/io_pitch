@@ -129,6 +129,9 @@ Margaret would call it her primary field.
 - ["Resource sharing on endogenous networks"](https://myweb.fsu.edu/ps12e/jmp.pdf) with Luke Boosey
 - ["Reputation and market structure in experimental platforms"](https://coss.fsu.edu/econpapers/wpaper/wp2021_08_01.pdf) with Mark Isaac
 
+---
+
+
 ## Theorists
 
 ::: {.r-fit-text}
@@ -140,6 +143,13 @@ Margaret would call it her primary field.
     - ["Unobserved mechanism design: equal priority auctions"](https://montoya.econ.ubc.ca/wp/unobserved_mechanisms/equal_priority_auctions.pdf) with Li Hao
 - [Li Hao](https://economics.ubc.ca/faculty-and-staff/li-hao/)
 - [Wei Li](https://economics.ubc.ca/faculty-and-staff/wei-li/)
+
+:::
+
+::: {.notes}
+
+Most micro-theory can be relevant to IO, so all the micro-theorists at
+the VSE are listed here.
 
 :::
 
