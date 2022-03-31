@@ -1,6 +1,9 @@
 ---
 title: "Industrial Organization at UBC"
-format: revealjs
+format:
+  revealjs:
+    transition: slide
+    background-transition: fade
 ---
 
 # Industrial Organization
@@ -12,6 +15,18 @@ format: revealjs
 - Market power
 - Strategies
 
+::: {.notes}
+
+IO is the study of firm behavior and how that behavior is affected by
+and determines market structure. It is especially interested in firms
+obtaining and using market power. Anti-trust and regulation are
+important applications of IO. Most IO papers focus on oligopolistic
+industries, where firms have some market power and strategic
+interactions among firms are important.
+
+:::
+
+
 
 ## Empirical IO
 
@@ -20,6 +35,23 @@ format: revealjs
   - Theories of firm behavior more plausible
 - Industry & institutional features
 - Game theory, econometrics, computation
+
+::: {.notes}
+
+One thing that differentiates IO from other fields is that IO relies
+more on structural models and less on natural experiments. There are
+two practical reasons for this.
+
+Good IO empirical papers feature a carefully crafted structural model
+meant to anser the question of interest and that incorporate key
+industry and institutional features.
+
+Because of this models tend to vary from application to application,
+so applied IO requires knowledge of micro theory, especially game
+theory, to build appropriate models and econometrics & computation to
+estimate those models.
+
+:::
 
 # Courses
 
@@ -38,22 +70,115 @@ format: revealjs
   - [514](https://montoya.econ.ubc.ca/Econ514/incetives.md) Information & Incentives taught by Mike Peters
 
 
+
 # People
 
-## Sam Hwang
+(in no particular order)
 
-## Hiro Kasahara
+(apologies to anyone left out)
 
-## Mike Peters
+::: {.notes}
 
-## Vitor Farinha Luz
+Just listing a couple most relevant and/or most recent papers.
 
-## Paul Schrimpf
+Many people in the VSE have interests related to IO, but maybe only
+Margaret would call it her primary field.
 
-## Margaret Slade
+:::
 
-## Vadim Marmer
+---
 
-## Kevin Song
+### [Sam Hwang](https://sites.google.com/site/samilmyounghwang/welcome)
+
+- ["Top-floor Discounts in Residential Buildings:Evidence from South Korea"](https://www.dropbox.com/s/vme3h0e44q5sh6a/vertical_formatted.pdf?dl=0) with Leo Ma
+- ["How Does Heterogeneity In Beliefs Affect Students Inthe Boston Mechanism?"](https://www.dropbox.com/s/o0uw8uocxvi5ubt/aej.pdf?dl=0)
+
+---
+
+### [Hiro Kasahara](https://hkasahar.arts.ubc.ca/publications/)
+
+- ["Estimation of Discrete Choice Dynamic Programming Models"](http://hkasahara.sites.olt.ubc.ca/files/2020/11/nakahara_final.pdf) with Katsumi Shimotsu
+- ["Identification and Estimation of Production Function with Unobserved Heterogeneity"](http://hkasahara.sites.olt.ubc.ca/files/2021/01/slides_productivity_July2020_short.pdf)
+  with Michio Suzuki and Paul Schrimpf
+
+---
+
+### [Paul Schrimpf](https://faculty.arts.ubc.ca/pschrimpf/research.html)
+
+- ["Estimating regulatory distortions of natural gas pipeline investment incentives"](https://faculty.arts.ubc.ca/pschrimpf/research/gasSlides.pdf)
+- ["The Response of Drug Expenditure to Non-Linear Contract Design: Evidence from Medicare Part D"](https://faculty.arts.ubc.ca/pschrimpf/research/QJE2015.pdf) with Liran Einav and Amy Finkelstein
+
+---
+
+### [Margaret Slade (emeritus)](https://economics.ubc.ca/faculty-and-staff/margaret-slade/)
+
+- ["Presumptions in Vertical Mergers: The Role of Evidence"](https://econ2017.sites.olt.ubc.ca/files/2021/04/PresumptionsInTheVerticalMergers_Paper_Slade_Jan2021.pdf) with Francine Lafontaine
+- ["Brewed in North America: Mergers, Marginal Costs, and Efficiency"](https://econ2017.sites.olt.ubc.ca/files/2017/11/pdf_paper_margaret-slade-brewing.pdf) with Paul Grieco and Joris Pinkse
+
+---
+
+### [Vadim Marmer](https://economics.ubc.ca/faculty-and-staff/vadim-marmer/)
+
+- ["Monotonicity-Constrained Nonparametric Estimation and Inference for First-Price Auctions"](https://arxiv.org/abs/1909.12974) with Jun Ma, Artyom Shneyerov, and Pai Xu
+- ["Investment and uncertainty with time to build: Evidence from entry into U.S. copper mining"](https://www.sciencedirect.com/science/article/pii/S016518891830280X?via%3Dihub) with Margaret Slade
+
+---
+
+### [Philip Solimine](https://www.psolimine.net/)
+
+- ["Resource sharing on endogenous networks"](https://myweb.fsu.edu/ps12e/jmp.pdf) with Luke Boosey
+- ["Reputation and market structure in experimental platforms"](https://coss.fsu.edu/econpapers/wpaper/wp2021_08_01.pdf) with Mark Isaac
+
+## Theorists
+
+::: {.r-fit-text}
+
+- [Vitor Farinha Luz](https://economics.ubc.ca/faculty-and-staff/vitor-farinha-luz/)
+    - ["Risk Classification in Insurance Markets with Risk and Preference Heterogeneity"](https://www.dropbox.com/s/ck0v1e05nf11vlj/FGM_Multidimensional_insurance_site.pdf?raw=1) with Piero Gottardi and Humberto Moreira
+    - ["Optimal Selling Mechanisms under Moment Conditions"](https://www.sciencedirect.com/science/article/pii/S0022053118301637) with H. Moreira, V. Carrasco, P. Monteiro, M. Messner and N. Kos
+- [Mike Peters](https://montoya.econ.ubc.ca/)
+    - ["Unobserved mechanism design: equal priority auctions"](https://montoya.econ.ubc.ca/wp/unobserved_mechanisms/equal_priority_auctions.pdf) with Li Hao
+- [Li Hao](https://economics.ubc.ca/faculty-and-staff/li-hao/)
+- [Wei Li](https://economics.ubc.ca/faculty-and-staff/wei-li/)
+
+:::
 
 ## Sauder
+
+::: {.r-fit-text}
+
+- [Limin Fang](https://sites.google.com/site/fangliminecon/home)  consumer learning, dynamic structural models of competition and marketing dynamics
+- [Ekaterina (Katya) Khmelnitskaya](https://sites.google.com/view/ekaterinakhmelnitskaya) competition, market structure and innovation, with a focus on the pharmaceutical industry
+- [Guillermo Marshall](https://g-marshall.github.io/) innovation and entrepreneurship
+- [Scott Orr](https://sites.google.com/site/pscottorr/papers) industrial organization and applied econometrics
+- [Alvaro Parra](http://blogs.ubc.ca/alvaroparra/) innovation dynamics, entry, and their relation with competition policy
+- [Tom Ross](http://blogs.ubc.ca/tomross/) competition policy, regulation, public-private partnerships
+- [And more](https://www.sauder.ubc.ca/thought-leadership/divisions/strategy-and-business-economics/people)
+
+:::
+
+::: {.notes}
+
+Almost everyone in the Sauder SBE division has work related to IO. The
+list above excludes people whose primary field is not IO and instead
+something like trade or urban economics.
+
+:::
+
+
+## Some Past Students
+
+- [Jasmine Hao](http://jasminehao.com/) HKU Business School
+  - ["Building up Trust in a Dynamic Game: A study on Collusive Price-fixing in the Chilean Pharmaceutical Retail Industry"](http://jasminehao.com/files/CollusionDynamic.pdf)
+- [Jonathan Graves](https://jonathanlgraves.arts.ubc.ca/economics/) UBC
+  - ["Sales and Perishable Products"]()
+- [Jacob Cosman](https://jacobcosman.ca/research/) Zillow.com, previously Carey Business School at Johns Hopkins
+  - ["Industry dynamics and the value of variety in nightlife: evidence from Chicago"](https://jacobcosman.ca/wp-content/uploads/2017/05/job_market_paper.pdf)
+
+
+::: {.notes}
+
+These are students whose committee I was on, or talked to about their
+job market paper. Likely omitting some others.
+
+:::
