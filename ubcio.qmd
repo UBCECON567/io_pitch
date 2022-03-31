@@ -5,7 +5,7 @@ format:
     transition: slide
     background-transition: fade
     logo: "ubc_logo.png"
-    output-file: "_slides/index.html"
+    output-file: "index.html"
 ---
 
 # Industrial Organization
