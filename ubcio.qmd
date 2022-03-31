@@ -4,6 +4,8 @@ format:
   revealjs:
     transition: slide
     background-transition: fade
+    logo: "ubc_logo.png"
+    output-file: "_slides/index.html"
 ---
 
 # Industrial Organization
