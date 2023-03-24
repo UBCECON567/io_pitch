@@ -42,7 +42,10 @@ interactions among firms are important.
 
 One thing that differentiates IO from other fields is that IO relies
 more on structural models and less on natural experiments. There are
-two practical reasons for this.
+two practical reasons for this. 1) the need to answer specific
+questions, e.g. will this proposed merger reduce welfare? 2) more
+consesus about theory and sense that profit maximization is a good
+paradigm for understanding firm behavior
 
 Good IO empirical papers feature a carefully crafted structural model
 meant to anser the question of interest and that incorporate key
@@ -66,12 +69,15 @@ estimate those models.
 ## Supplementary
 
 - Recommended supplementary courses:
-  - [Course from Sauder SBE](https://www.sauder.ubc.ca/programs/phd/phd-business-administration/specializations/strategy-and-business-economics) e.g. COMM691
-  - [622](https://github.com/ubcecon/ECON622) computational economics taught by Paul Schrimpf
-  - 629 topics in econometrics taught by Kevin Song
+  - [Course from Sauder SBE](https://www.sauder.ubc.ca/programs/phd/phd-business-administration/specializations/strategy-and-business-economics) e.g. COMM691 taught by Guillermo Marshall
+  - [622](https://github.com/ubcecon/ECON622) computational economics taught by Paul Schrimpf, Jesse Perla, \& Phil Solimine
+  - 629 topics in econometrics taught by Hiro Kasahara
   - [514](https://montoya.econ.ubc.ca/Econ514/incetives.md) Information & Incentives taught by Mike Peters
+  - IO reading group organized by Sauder
 
+## Seminars
 
+- [SBE seminar series at Sauder](https://www.sauder.ubc.ca/thought-leadership/divisions/strategy-and-business-economics/research/seminars)
 
 # People
 
