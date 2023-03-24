@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-  <meta charset="utf-8">
-  <meta name="generator" content="quarto-0.9.173">
+<script src="ubcio_files/libs/clipboard/clipboard.min.js"></script>
+<script src="ubcio_files/libs/quarto-html/tabby.min.js"></script>
+<script src="ubcio_files/libs/quarto-html/popper.min.js"></script>
+<script src="ubcio_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="ubcio_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="ubcio_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="ubcio_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.2.475">
+
   <title>Industrial Organization at UBC</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -11,20 +18,17 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="stylesheet" href="ubcio_files/libs/revealjs/dist/theme/quarto.css" id="theme">
-
-  <script src="ubcio_files/libs/clipboard/clipboard.min.js"></script>
-  <script src="ubcio_files/libs/quarto-html/tabby.min.js"></script>
-  <script src="ubcio_files/libs/quarto-html/popper.min.js"></script>
-  <script src="ubcio_files/libs/quarto-html/tippy.umd.min.js"></script>
-  <link href="ubcio_files/libs/quarto-html/tippy.css" rel="stylesheet">
-  <link href="ubcio_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet">
-  <link id="quarto-text-highlighting-styles" href="ubcio_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
   <link href="ubcio_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="ubcio_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="ubcio_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -38,7 +42,7 @@
   }
 
   .callout.callout-style-simple { 
-    padding: 0em 0.7em;
+    padding: 0em 0.5em;
     border-left: solid #acacac .3rem;
     border-right: solid 1px silver;
     border-top: solid 1px silver;
@@ -149,8 +153,7 @@
     display: none !important;
   }
 
-  .callout.callout-captioned .callout-body > :last-child,
-  .callout.callout-captioned .callout-body > div > :last-child {
+  .callout.callout-captioned .callout-body > .callout-content > :last-child {
     margin-bottom: 0.5rem;
   }
 
@@ -315,14 +318,17 @@
     }
   </style>
 </head>
-<body>
+<body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="center">
+<section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Industrial Organization at UBC</h1>
-</section>
 
+<div class="quarto-title-authors">
+</div>
+
+</section>
 <section>
 <section id="industrial-organization" class="title-slide slide level1 center">
 <h1>Industrial Organization</h1>
@@ -338,7 +344,17 @@
 </ul>
 <aside class="notes">
 <p>IO is the study of firm behavior and how that behavior is affected by and determines market structure. It is especially interested in firms obtaining and using market power. Anti-trust and regulation are important applications of IO. Most IO papers focus on oligopolistic industries, where firms have some market power and strategic interactions among firms are important.</p>
-</aside>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="empirical-io" class="slide level2">
 <h2>Empirical IO</h2>
@@ -352,10 +368,20 @@
 <li>Game theory, econometrics, computation</li>
 </ul>
 <aside class="notes">
-<p>One thing that differentiates IO from other fields is that IO relies more on structural models and less on natural experiments. There are two practical reasons for this.</p>
+<p>One thing that differentiates IO from other fields is that IO relies more on structural models and less on natural experiments. There are two practical reasons for this. 1) the need to answer specific questions, e.g.&nbsp;will this proposed merger reduce welfare? 2) more consesus about theory and sense that profit maximization is a good paradigm for understanding firm behavior</p>
 <p>Good IO empirical papers feature a carefully crafted structural model meant to anser the question of interest and that incorporate key industry and institutional features.</p>
 <p>Because of this models tend to vary from application to application, so applied IO requires knowledge of micro theory, especially game theory, to build appropriate models and econometrics &amp; computation to estimate those models.</p>
-</aside>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="courses" class="title-slide slide level1 center">
@@ -377,11 +403,18 @@
 <ul>
 <li>Recommended supplementary courses:
 <ul>
-<li><a href="https://www.sauder.ubc.ca/programs/phd/phd-business-administration/specializations/strategy-and-business-economics">Course from Sauder SBE</a> e.g.&nbsp;COMM691</li>
-<li><a href="https://github.com/ubcecon/ECON622">622</a> computational economics taught by Paul Schrimpf</li>
-<li>629 topics in econometrics taught by Kevin Song</li>
+<li><a href="https://www.sauder.ubc.ca/programs/phd/phd-business-administration/specializations/strategy-and-business-economics">Course from Sauder SBE</a> e.g.&nbsp;COMM691 taught by Guillermo Marshall</li>
+<li><a href="https://github.com/ubcecon/ECON622">622</a> computational economics taught by Paul Schrimpf, Jesse Perla, &amp; Phil Solimine</li>
+<li>629 topics in econometrics taught by Hiro Kasahara</li>
 <li><a href="https://montoya.econ.ubc.ca/Econ514/incetives.md">514</a> Information &amp; Incentives taught by Mike Peters</li>
+<li>IO reading group organized by Sauder</li>
 </ul></li>
+</ul>
+</section>
+<section id="seminars" class="slide level2">
+<h2>Seminars</h2>
+<ul>
+<li><a href="https://www.sauder.ubc.ca/thought-leadership/divisions/strategy-and-business-economics/research/seminars">SBE seminar series at Sauder</a></li>
 </ul>
 </section></section>
 <section>
@@ -392,7 +425,17 @@
 <aside class="notes">
 <p>Just listing a couple most relevant and/or most recent papers.</p>
 <p>Many people in the VSE have interests related to IO, but maybe only Margaret would call it her primary field.</p>
-</aside>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section class="slide level2">
 
@@ -461,7 +504,17 @@
 </div>
 <aside class="notes">
 <p>Most micro-theory can be relevant to IO, so all the micro-theorists at the VSE are listed here.</p>
-</aside>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="sauder" class="slide level2">
 <h2>Sauder</h2>
@@ -478,7 +531,17 @@
 </div>
 <aside class="notes">
 <p>Almost everyone in the Sauder SBE division has work related to IO. The list above excludes people whose primary field is not IO and instead something like trade or urban economics.</p>
-</aside>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="some-past-students" class="slide level2">
 <h2>Some Past Students</h2>
@@ -498,7 +561,17 @@
 </ul>
 <aside class="notes">
 <p>These are students whose committee I was on, or talked to about their job market paper. Likely omitting some others.</p>
-</aside>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 
 <img src="ubc_logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 
@@ -509,19 +582,19 @@
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
   <script src="ubcio_files/libs/revealjs/dist/reveal.js"></script>
-
   <!-- reveal.js plugins -->
   <script src="ubcio_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
   <script src="ubcio_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="ubcio_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="ubcio_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
   <script src="ubcio_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
   <script src="ubcio_files/libs/revealjs/plugin/notes/notes.js"></script>
   <script src="ubcio_files/libs/revealjs/plugin/search/search.js"></script>
   <script src="ubcio_files/libs/revealjs/plugin/zoom/zoom.js"></script>
   <script src="ubcio_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
-
 
   <script>
 
@@ -535,10 +608,9 @@
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
-
+ 
         // Display controls in the bottom right corner
         controls: false,
 
@@ -716,8 +788,26 @@
         ]
       });
     </script>
-    <script type="application/javascript">
+    <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
       const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
@@ -734,7 +824,27 @@
         button.blur();
         // flash "checked"
         button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
         setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
           button.classList.remove('code-copy-button-checked');
         }, 1000);
         // clear code selection
@@ -763,31 +873,50 @@
       for (var i=0; i<noterefs.length; i++) {
         const ref = noterefs[i];
         tippyHover(ref, function() {
-          let href = ref.getAttribute('href');
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
           return note.innerHTML;
         });
       }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
       var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
       for (var i=0; i<bibliorefs.length; i++) {
         const ref = bibliorefs[i];
-        const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-        tippyHover(ref, function() {
-          var popup = window.document.createElement('div');
-          cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
           });
-          return popup.innerHTML;
-        });
+        }
       }
     });
     </script>
